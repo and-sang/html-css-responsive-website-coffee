@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/492df2e27b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Responsive Website</title>
+  </head>
+  <body>
+    <nav>
+      <div class="button">
+        <a href="#"><img src="./images/bean.jpg" alt="" height="100%" /></a>
+      </div>
+      <ul class="menu">
+        <li>
+          <a href="#" class="active"><span class="fas fa-home"> home</span></a>
+        </li>
+        <li>
+          <a href="#"><span class="fas fa-info"> info</span></a>
+        </li>
+        <li>
+          <a href="#"><span class="fas fa-coffee"> about</span></a>
+        </li>
+        <li>
+          <a href="#"><span class="fas fa-bomb"> survey</span></a>
+        </li>
+      </ul>
+    </nav>
+    <header>
+      <section>
+        <h1>coffe</h1>
+        <p>coffee is the best thing ever</p>
+        <a href="#" class="btn">click if you agree</a>
+      </section>
+    </header>
+    <blockquote>
+      <p>
+        "If this is coffee, please bring me some tea; but if this is tea, please
+        bring me some coffee."
+      </p>
+      <footer>-Abraham Lincoln</footer>
+    </blockquote>
+    <section class="titles">
+      <h2>three interesting things about coffee</h2>
+    </section>
+    <div class="articles clearfix">
+      <section>
+        <img src="./images/coffeemug.jpg" alt="coffee beans" />
+        <h3>etymology</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, aliquid
+          alias corrupti quam quo maiores delectus ullam omnis culpa, eius
+          impedit modi accusamus? Soluta dicta sit dolores repudiandae quas a
+          natus consectetur? Nihil minus et, libero sit magnam repudiandae
+          repellendus quia exercitationem nesciunt fuga recusandae natus, quo
+          hic similique ipsa!
+        </p>
+        <a href="#" class="btn">click here</a>
+      </section>
+      <section>
+        <img src="./images/coffeecup.jpg" alt="coffee beans" />
+        <h3>biology</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, aliquid
+          alias corrupti quam quo maiores delectus ullam omnis culpa, eius
+          impedit modi accusamus? Soluta dicta sit dolores repudiandae quas a
+          natus consectetur? Nihil minus et, libero sit magnam repudiandae
+          repellendus quia exercitationem nesciunt fuga recusandae natus, quo
+          hic similique ipsa!
+        </p>
+        <a href="#" class="btn">click here</a>
+      </section>
+      <section>
+        <img src="./images/coffee.jpg" alt="coffee beans" />
+        <h3>history</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, aliquid
+          alias corrupti quam quo maiores delectus ullam omnis culpa, eius
+          impedit modi accusamus? Soluta dicta sit dolores repudiandae quas a
+          natus consectetur? Nihil minus et, libero sit magnam repudiandae
+          repellendus quia exercitationem nesciunt fuga recusandae natus, quo
+          hic similique ipsa!
+        </p>
+        <a href="#" class="btn">click here</a>
+      </section>
+    </div>
+    <section class="titles">
+      <h2>follow coffee on these platforms</h2>
+    </section>
+    <div class="articles clearfix small">
+      <section>
+        <a href="#" class="black"
+          ><span class="fab fa-facebook fa-5x"></span
+        ></a>
+        <h3 class="red">facebook</h3>
+      </section>
+      <section>
+        <a href="#" class="black"><span class="fab fa-twitter fa-5x"></span></a>
+        <h3 class="red">twitter</h3>
+      </section>
+      <section>
+        <a href="#" class="black"
+          ><span class="fab fa-instagram fa-5x"></span
+        ></a>
+        <h3 class="red">instagram</h3>
+      </section>
+    </div>
+    <footer id="second">
+      <h2>&copy; make america drink coffee again!!!</h2>
+    </footer>
+  </body>
+
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".button").click(function () {
+        $(".menu li").slideToggle("slow", function () {
+          // Animation complete.
+        });
+      });
+    });
+  </script>
+</html>
